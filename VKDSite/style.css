@@ -1,0 +1,155 @@
+/* CSS dosyası*/
+
+/*boşukları sıfırla*/
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #FDEEF4;
+    
+    
+}
+#sayfa{
+    width: 1366px;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 720px;
+    margin: auto;
+}
+
+/*Banner*/
+#banner{
+    width: 1366px;
+    /*border-style: solid;
+    border-width: 1px;*/
+    height: 100px;
+    margin: auto;
+    background-color: #dcdcdc;
+    
+
+}
+/*Logo*/
+#logo{
+    width: 250px;
+    /*border-style: solid;
+    border-width: 1px;*/
+    height: 60px;
+    /*background-color: #330113;*/
+    position: relative;
+    top: 20px;
+    left: 15px;
+    float: left;
+    
+
+
+}
+/*sosyal medya ikonları*/
+#sosyal{
+    width: 150px;
+    /*border-style: solid;
+    border-width: 1px;*/
+    height: 50px;
+    /*background-color: #330113;*/
+    float: right;
+    position: relative;
+    top: 27px;
+    right: 15px;
+}
+#ikon{
+    
+    float: right;
+    padding: 9px;
+
+}
+/*Ana Menü*/
+#anamenü{
+    
+    width: 1366px;
+    height: 50px;
+    margin: auto;
+    /*background-color: #e9dadf;
+    border-style: solid ;*/
+}
+
+#btn{
+    position: relative;
+    float: left;
+    left: 475px;
+    padding: 5px;
+    bottom: 2px;
+
+}
+/*içerik ve yan menü*/
+#icerik{
+    width: 1066px;
+    /*border-style: solid;
+    border-width: 1px;*/
+    min-height: 400px;
+    float: left;
+    /*background-color: #dcdcdc;*/
+}
+#yanmenu{
+    width: 200px;
+    /*border-style: solid;
+    border-width: 1px;*/
+    min-height: 400px;
+    float: right;
+    /*background-color: #f7eaef;*/
+}
+#yanmenu ul{
+    list-style-type: none;
+    float: left;
+}
+#yanmenu ul li{
+    /*border-style: solid;
+    border-width: 0.1px;*/
+    margin: 3px;
+    background-color:  #f7eaef;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#yanmenu ul a{
+    /*text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    text-decoration: none;
+    font-weight:bolder ;
+    
+}
+#yanmenu ul a:link{
+    color: black;
+}
+#yanmenu ul a:hover{
+    color:gray;
+}
+
+/*Alt Menü*/
+#altmenu{
+    width: 1366px;
+    /*border-style: solid;
+    border-width: 1px;*/
+    height: 60px;
+    float: right;
+    background-color: #4e4e4e;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: auto;
+
+}
+#altmenu a{
+    font-size: 10px;
+    color: honeydew;
+    text-decoration: none;
+}
+#altmenu a:hover{
+    color:gray;
+    
+}
